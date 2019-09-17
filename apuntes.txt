@@ -1,8 +1,8 @@
-DEVOPS:
-DEVS nuevas funcionalidades de sw, ultimas tecnologias
+APRENDIENDO DEVOPS:
+DEVS nuevas funcionalidades de sw, ultimas tecnologias.
 OPS mantener la infraestructura segura, con el menor riesgo, e instalar sw estable
 
-La cultura devops es tener puentes entre estos 2.
+La cultura devops es tener un puente entre estos 2.
 
 DEVOPS no es un puesto de trabajo.
 DEVOPS es una nueva cultura empresarial que se desea implementar
@@ -10,7 +10,7 @@ dentro los dptos de IT.
 
 Devops es un cambio cultural dentro de nuestra empresa.
 Es una nueva cultura o un paradigma de colaboracion de dptos, esto hara agilidad y
-empatia, cual es el proceso de despliegue, monitrazion, logeo, ci cd.
+empatia, cual es el proceso de despliegue, monitrazion, logueo, CI/CD.
 
 ------------------------------------------------------------------------------------
 
@@ -56,12 +56,8 @@ reducir la variacion, en forma de editar el docker file.
 
 Docker y el second way:
 Ayuda a reducir la velocidad de trabajo en un entorno y nos ayuda tb a reducir la
-variacion, visualizacion ver informacion de la imagen, nombre, encargado etc.
+variacion, visualizacion ver informacion de la imagen, nombre, encargado, logs etc.
 
 Docker y el third way:
-Nos ayuda a mejrar sobre el propio docker o sobre la plataforma que estamos ensayando.
-
-
-
-
+Nos ayuda a mejorar sobre el propio docker o sobre la plataforma que estamos ensayando.
 
