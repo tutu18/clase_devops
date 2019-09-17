@@ -1,0 +1,67 @@
+DEVOPS:
+DEVS nuevas funcionalidades de sw, ultimas tecnologias
+OPS mantener la infraestructura segura, con el menor riesgo, e instalar sw estable
+
+La cultura devops es tener puentes entre estos 2.
+
+DEVOPS no es un puesto de trabajo.
+DEVOPS es una nueva cultura empresarial que se desea implementar
+dentro los dptos de IT.
+
+Devops es un cambio cultural dentro de nuestra empresa.
+Es una nueva cultura o un paradigma de colaboracion de dptos, esto hara agilidad y
+empatia, cual es el proceso de despliegue, monitrazion, logeo, ci cd.
+
+------------------------------------------------------------------------------------
+
+3 Vias de DEVOPS y Docker
+
+1. Systems thinking (pensamientos sistemico)
+Identificar mision, objetivo del sistema de la mision, mejorar la comunicacion para
+cumplir con la mision.
+
+Para ello debemos hacer lo siguiente: incrementar velocidad de las partes del
+sistema, agilizar cada proceso, acotar procesos a una unica funcionalidad.
+
+2. Amplifying feedback loops (amplicacion de los buckles de retroalimentacion)
+de izquierda a derecha dev pide algo al ops y este lo pide, le comunica que esta hecho
+Para mejorar el flujo de comunicacion: herramientas de visibilizacion y monitorizacion (logs)
+herramientas CI/CD para poder desplegar, testear e integrar el codigo de la aplicacion
+
+Con esto conseguimos lo siguiente: aumentamos la velocidad en la correccion de errors,
+eliminar procesos lentos que tardan demasiado en un pipeline, identificar que parte del 
+pipeline causa problemas linkeando cada artefacto con el codigo que hace
+que se genere el mismo artefacto, ahi vamos a la fuente.
+
+3. Continous Learning (experimentacion y aprendizaje continuo)
+Equipos abiertos a aprende y experimentar con nuevas tecnologias y nuevos
+procedimientos de trabajo. Si hacemos lo mismo no obtendremos resultados diferentes.
+Forma de trabajar y colaborar entre devs y ops
+
+Docker y el first way Systems thinking:
+ayuda en 3 flujos
+
+DEVELOPER FLOW -> desarrollo y testeo local es agil, levantamos multiples contenedores
+para testear un entorno completo. La similitud reduce el cambio de contexto y entiende el
+sistema completo.
+
+INTEGRATION FLOW -> mejora e integrar docker en nuestro en nuestro sistema de intracion
+continua simplemente instalando docker en los slaves. Docker in docker permite que un 
+contenedor tenga acceso al demonio de docker acceso con privilegios.
+los esclavos estan listos en segundos
+
+DEPLOYMENT FLOW -> Despliegues mas eficientes en tiempo, esta en segundos, implementamos 
+una forma mas eficiente como blue/green deployments, rolling updates y canary deployment
+reducir la variacion, en forma de editar el docker file.
+
+Docker y el second way:
+Ayuda a reducir la velocidad de trabajo en un entorno y nos ayuda tb a reducir la
+variacion, visualizacion ver informacion de la imagen, nombre, encargado etc.
+
+Docker y el third way:
+Nos ayuda a mejrar sobre el propio docker o sobre la plataforma que estamos ensayando.
+
+
+
+
+
